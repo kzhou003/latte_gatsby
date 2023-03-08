@@ -4,6 +4,8 @@ date: "2023-03-05"
 description: "Hello World"
 ---
 
+This is Kuan. I am staying at bay area with Micky and Gemma. 
+
 This is my first post on my news blog! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
