@@ -1,3 +1,3 @@
-Latte Bytes
+# Latte Bytes
 
-Author: Kuan Zhou
+*Author*: Kuan Zhou
