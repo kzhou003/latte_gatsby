@@ -20,10 +20,12 @@
     "gatsby": "^5.5.0",
     "gatsby-plugin-feed": "^5.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-plugin-sitemap": "^6.5.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
     "gatsby-remark-emoji": "^0.0.3",
     "gatsby-transformer-remark": "^6.7.0",
+    "gatsby-transformer-sharp": "^5.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remark-emoji": "^3.1.1"
