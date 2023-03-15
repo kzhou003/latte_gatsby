@@ -52,6 +52,14 @@ const config: GatsbyConfig = {
       },
     },
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-emoji`,
+        ]
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
