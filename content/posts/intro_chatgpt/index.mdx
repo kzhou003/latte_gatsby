@@ -1,0 +1,50 @@
+---
+title: "Generative AI导读 - ChatGPT版本"
+date: 2023-03-18
+slug: "/intro-to-generative-ai-chatgpt"
+---
+
+生成式人工智能（Generative AI）指的是一类能够自动生成各种内容的人工智能模型，也可称为人工智能内容生成（AICG），其中包括文字、图片、视频、声音等多种类型。虽然AI内容生成的研究和探讨已经很早就开始了，GAN（Generative Adversarial Networks）就是其中比较著名的一种，但现在是这一领域蓬勃发展、AI真正开始革命的时候。这场革命的势头始于stable diffusion，而兴盛于ChatGPT。现在看来，其中最耀眼的企业是OpenAI和Microsoft。
+
+我们可以以ChatGPT为例来深入了解这一领域。
+
+<center><h1>为什么现在是开花结果的时间</h1></center>
+为什么现在是AI内容生成大发展的时代呢？我认为主要有以下原因：
+
+1. Demand：市场需求的推动。基于transformers模型的模型，尤其是GPT模型，已经证明了它的实力和价值，各个领域都迫切希望挖掘AI的价值，想要利用AI解决自身的商业问题。但最大的问题是fine-tune的成本非常高。即使仅仅是改变一些权重（weights），所需的数据量和机器消耗也非常可观。
+
+2. Dataset：在AI的推动下，很多公司和机构开始收集整理数据集。
+
+3. Hardware：从CPU/GPU/TPU到FPGA/ASIC，单就NVidia的硬件来说，GPU H100，HBM+InfiniBand for networking，更多的为了AI workloads优化的SRAM/DRAM。
+
+4. Infrastructure：从distributed system到AI frameworks再到AI compilers和MLOps，各方面蓬勃发展。
+
+5. Algorithm：这或许是整个发展脉络中的最后一步，但也是非常重要的。如果前面几项都更多的是循序渐进的水到渠成，这一步则更具英雄主义色彩，需要个别人、个别团队或者公司的创新。这一部分的两个核心部分是Prompt tuning和RLHF（Reinforcement Learning from Human Feedbacks）。
+
+Prompt tuning完成了范式的转变，从而直接去除了Fine-tune的成本，还将所有NLP任务统一成了自然语言生成（NLG），而RLHF则帮助解决了和人类价值的对齐问题，使得ChatGPT能够真正成为有益无害的工具，从而面向大众使用。
+
+<h1 align="center">为什么是 OpenAI</h1>
+为什么是OpenAI？有很多原因，比如它们在人工智能领域的卓越成就，以及集齐了许多业内顶尖人才等等。但我认为，更为重要的是它们的使命和价值观。OpenAI 的使命是发展人工智能，让其造福整个人类，致力于负责任和道德的人工智能发展。因此，OpenAI 更像是一家研究机构，而不是以盈利为导向的公司。
+他们致力于解决人工智能的基本问题，以便让人工智能真正造福于整个人类，而不是服务于特定的某些群体。这也解释了为什么 OpenAI 可以更专注于解决人工智能对人类价值观的不对齐问题。
+RLHF 的主要研究者来自 Anthropic AI 公司，但 Anthropic 的创始人来自 OpenAI，并且两家公司一直有很密切的合作。OpenAI 更接近商业界，因此拥有足够的资源，同时又拥有与学术界一样的专注和使命。这也是 OpenAI 的巨大优势之一。
+
+<h1 align="center">为什么是Microsoft</h1>
+Microsoft 作为世界领先的科技公司，已经成为了软件开发领域中的巨头，拥有许多优秀的产品，比如 VSCode 等。更重要的是，它通过2018年6月的收购 Github，掌握了代码库的数据资源，成为了软件开发领域的领先者之一。
+
+随着 Microsoft 和 OpenAI 合作开发 Copilot 和 ChatGPT，利用其掌握的代码库数据资源，更加巩固了其在人工智能领域的优势，其他公司难以插足。尤其是 ChatGPT 在软件开发方面的能力，其实是目前最大的卖点，也是最突出和有效的部分。
+
+现在 Microsoft 不仅在 OpenAI 的投资上直接受益，而且还将 ChatGPT 和自身高利润产品线结合，这一举措可以称为是 Iphone 时代的重大创举。
+
+<center><h1>未来将会发生什么</h1></center>
+群雄争鹿：现在已经有了好几个明朗的阵营，如OpenAI+Microsoft，Google+Anthropic AI，Amazon+HuggingFace+Stability AI等，Meta发布LLaMA，Google发布Bard等。
+百家争鸣：在ChatGPT等生成型AI掀起的浪潮下，涌现了很多新的机会，基于ChatGPT开发的应用，基于Stable Diffusion开发的应用，将生成型AI应用到各个具体领域，硬件、软件以及基础架构公司都有机会。
+翻天覆地：或许用"翻天覆地"来形容都不为过，主要是许多老式企业和职位毫无疑问会被重新定义。能者多劳，一些劳动密集型或时间为主要成本的岗位最先会被生成型AI取代，比如功能性文字工作者等，都可以被AI取代。AI有能力将简单的文字快速润色到近乎完美，至少比大多数文字工作者写的更加专业、更加合适。一些传统大公司也被推着适应这个AI浪潮，如果适应不了或者完成不了转型，就很容易被取代。
+
+<center><h1>对我们来说最好的部分</h1></center>
+首先肯定是提高生产力，使很多人从一些时间为主要成本的事情中解放出来，也很大程度上从语言工作中解放出来。
+更重要的是我认为有两个方面：
+
+更容易知道方向：高人指点事半功倍，ChatGPT就可以是一个随时随地在身边的高人。它能够告诉你方向在哪里，排除一些错误选项，知道朝哪个方向用力，比如实现一个功能，可以更快地找到最优选择在哪里。
+更容易知道能与不能：对于一个新的领域或新的工具，最难了解的往往不是其用法，而是其能力的上限在哪里。
+<center><h1>值得期待的是</h1></center>
+其他更多的，如何做到持续更新数据训练，如何提高视频和语音方面的能力，如何实现domain specification或个性化等，都是拭目以待的。
